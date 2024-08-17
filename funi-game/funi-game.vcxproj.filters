@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Arrows">
+      <UniqueIdentifier>{9152538d-29bc-4d5d-8b07-a6b91126417e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Scenes">
+      <UniqueIdentifier>{f43755dd-2e31-4933-836a-869d768d3686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Utils">
+      <UniqueIdentifier>{b41beceb-fe69-48d5-952e-8f72b4ab60ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Arrows">
+      <UniqueIdentifier>{61aa797b-a985-46f9-8ba2-ff1925628a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Utils">
+      <UniqueIdentifier>{47497ef5-a9af-41a0-8c6b-261503f91f8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Scenes">
+      <UniqueIdentifier>{f998ccdf-e102-412a-b15b-f6b79993cb8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\UI">
+      <UniqueIdentifier>{43b26956-7e88-465a-82ac-9ee33e70a97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\UI">
+      <UniqueIdentifier>{3104ceec-dc11-4a01-ba9a-7f8fab4dbf73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="InputController.cpp">
+      <Filter>Исходные файлы\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Исходные файлы\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrows\Arrow.cpp">
+      <Filter>Исходные файлы\Arrows</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrows\Arrow__Finger.cpp">
+      <Filter>Исходные файлы\Arrows</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrows\Arrow__Botinok.cpp">
+      <Filter>Исходные файлы\Arrows</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Исходные файлы\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrowManager.cpp">
+      <Filter>Исходные файлы\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Исходные файлы\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrows\Arrow__Umbrella.cpp">
+      <Filter>Исходные файлы\Arrows</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrows\Arrow__Pixeltronic.cpp">
+      <Filter>Исходные файлы\Arrows</Filter>
+    </ClCompile>
+    <ClCompile Include="Easing.cpp">
+      <Filter>Исходные файлы\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="openal32.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-audio-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-audio-d-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-graphics-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-graphics-d-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-network-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-network-d-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-system-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-system-d-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-window-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-window-d-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="InputController.h">
+      <Filter>Файлы заголовков\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Файлы заголовков\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Файлы заголовков\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Файлы заголовков\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinScene.h">
+      <Filter>Файлы заголовков\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrows\Arrow__Finger.h">
+      <Filter>Файлы заголовков\Arrows</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrows\Arrow.h">
+      <Filter>Файлы заголовков\Arrows</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrows\Arrow__Botinok.h">
+      <Filter>Файлы заголовков\Arrows</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Файлы заголовков\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrowManager.h">
+      <Filter>Файлы заголовков\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Файлы заголовков\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrows\Arrow__Umbrella.h">
+      <Filter>Файлы заголовков\Arrows</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrows\Arrow__Pixeltronic.h">
+      <Filter>Файлы заголовков\Arrows</Filter>
+    </ClInclude>
+    <ClInclude Include="Easing.h">
+      <Filter>Файлы заголовков\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
